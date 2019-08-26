@@ -5,7 +5,7 @@ var passport = require('passport');
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { 
-    title: 'Express',
+    title: 'SEI Pro Football!!!',
     user: req.user,
     name: req.query.name
   });
@@ -29,5 +29,10 @@ router.get('/logout', function(req, res) {
   req.logout();
   res.redirect('/');
 });
+
+// function isLoggedIn(req, res, next) {
+//   if (req.isAuthenticated() ) return next();
+//   res.redirect('/auth/google');
+// }
 
 module.exports = router;
