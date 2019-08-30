@@ -8,8 +8,6 @@ A web app designed  for you to leave your own reviews on your favorite nfl teams
 _____
 
 Technologies Used
-_____
-
 Javascript
 Node.js
 Express.js
@@ -39,3 +37,4 @@ ________
 
 Have api to implement current stats with the team/teams you select.
 Have the capability of uploading highlights to your team. 
+ 
